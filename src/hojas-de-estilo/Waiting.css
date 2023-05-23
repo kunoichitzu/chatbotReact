@@ -1,0 +1,49 @@
+.chat-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0084ff;
+    margin: 0 5px;
+    opacity: 0.5;
+    transform: translateY(0);
+    animation-name: bounce;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.dot1 {
+    animation-delay: 0s;
+}
+
+.dot2 {
+    animation-delay: 0.2s;
+}
+
+.dot3 {
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateY(0);
+    }
+}

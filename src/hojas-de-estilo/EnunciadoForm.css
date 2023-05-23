@@ -1,0 +1,28 @@
+.enunciado-formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enunciado-input{
+    width: 100%;
+    color: #87949c;
+    font-size: 18px;
+    background-color: #3e3f4b;
+    padding: 14px 32px 14px 16px;
+    border-radius: 1.5em 0 0 1.5em;
+    border: none;
+    outline: none;
+}
+.enunciado-boton{
+    width: 48.8px;
+    height: 48.8px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 0 1.5em 1.5em 0;
+    cursor: pointer;
+    outline: none;
+    background: #868686;
+    color: #fff;
+    text-transform: capitalize;
+}

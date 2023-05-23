@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import fapeLogo from './imagenes/Farmacias_Peruanas.svg'
+import ListaEnunciados from './Componentes/ListaEnunciados.js'
+import Waiting from "./Componentes/Waiting";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="aplicacion-chat">
+        <div className='fape-logo-contenedor'>
+          <img src={fapeLogo} className='fape-logo' />
+        </div>
+        <Waiting />
+        <div className='charla-ticket-principal'>
+            <ListaEnunciados></ListaEnunciados>
+        </div>
+      </div>
   );
+
 }
 
 export default App;

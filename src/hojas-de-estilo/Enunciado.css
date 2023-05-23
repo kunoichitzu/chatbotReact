@@ -1,0 +1,9 @@
+.mensaje-contenedor{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+}
+.mensaje-contenedor-iconos{
+    margin-right: 20px;
+}
