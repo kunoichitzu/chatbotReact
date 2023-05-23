@@ -7,7 +7,7 @@ app.set('port',process.env.PORT || 8000)
 app.use(express.json())
 app.use(cors())
 
-const API_KEY='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'
+const API_KEY='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'
 const API_GPT='https://api.openai.com/v1/chat/completions'
 const PROMPT_GPT='Actúa como un Asistente de HelpDesk que ' +
     'elabora un Ticket de HelpDesk compueto ' +
